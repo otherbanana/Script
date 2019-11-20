@@ -31,10 +31,13 @@ host, dida365.com, UnlockVIP-Myself
 #limneos越狱插件
 host, limneos.net, UnlockVIP-Myself
 
-#iCleaner Pro越狱插件
+#Esim+越狱插件
+host, iarrays.com, UnlockVIP-Myself
+
+#iCleaner Pro越狱插件-未成功
 host, ib-soft.net, UnlockVIP-Myself
 
-#无视证书过期
+#无视证书过期-未成功
 host, ocsp.apple.com, UnlockVIP-Myself
 
 
