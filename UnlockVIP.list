@@ -31,6 +31,10 @@ host, dida365.com, UnlockVIP-Myself
 #海豚记账
 host, book.haitunwallet.com, UnlockVIP-Myself
 
+#幕布
+host, mubu.com, UnlockVIP-Myself
+
+############################越狱插件
 #limneos越狱插件
 host, limneos.net, UnlockVIP-Myself
 
