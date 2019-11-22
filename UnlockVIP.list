@@ -37,6 +37,8 @@ host, mubu.com, UnlockVIP-Myself
 #Drafts
 host, backend.getdrafts.com, UnlockVIP-Myself
 
+#buyhack
+host, buy.itunes.apple.com, UnlockVIP-Myself
 
 ############################越狱插件
 #limneos越狱插件
