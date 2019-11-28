@@ -1,0 +1,8 @@
+hostname=book.haitunwallet.com, mubu.com
+
+
+#海豚记账
+https:\/\/book\.haitunwallet\.com\/app\/vip\/status url script-response-body https://raw.githubusercontent.com/otherbanana/Script/master/Files/HTJZ.js
+
+#幕布
+https:\/\/mubu\.com\/api\/app\/user\/info url script-response-body mb.js https://raw.githubusercontent.com/otherbanana/Script/master/Files/mubu.js
