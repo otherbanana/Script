@@ -21,4 +21,4 @@ http-response ^https://api.zhihu.com/market/header requires-body=1,max-size=0,sc
 http-request ^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) script-path=https://Choler.github.io/Surge/Script/YouTube.js
 
 # 流利说•阅读 
-http-response ^https?:\/\/vira\.llsapp\.com\/api\/v2\/readings\/(accessible|limitation) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/otherbanana/Script/master/Files/llyd.js
+http-response ^https?:\/\/vira\.llsapp\.com\/api\/v2\/readings\/(accessible|limitation) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/otherbanana/Script/master/Files/llyd-s.js
