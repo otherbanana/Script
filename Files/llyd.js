@@ -6,7 +6,7 @@ Surge:
 http-response ^https?:\/\/vira\.llsapp\.com\/api\/v2\/readings\/(accessible|limitation) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/otherbanana/Script/master/Files/llyd.js
 
 Quantumult X:
-^https?:\/\/vira\.llsapp\.com\/api\/v2\/readings\/(accessible|limitation) rurl script-response-body Myself/llyd.js
+^https?:\/\/vira\.llsapp\.com\/api\/v2\/readings\/(accessible|limitation) url script-response-body Myself/llyd.js
 
 
 MitM = vira.llsapp.com
