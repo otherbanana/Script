@@ -19,7 +19,7 @@ DOMAIN, biz.caiyunapp.com, UnlockVIP-Myself
 #Drops
 DOMAIN, lambda.us-east-1.amazonaws.com, UnlockVIP-Myself
 
-#boom
+#Boom
 DOMAIN, apimboom2.globaldelight.net, UnlockVIP-Myself
 
 #蜗牛阅读
@@ -39,6 +39,9 @@ DOMAIN, p.du.163.com, UnlockVIP-Myself
 
 #Drafts
 DOMAIN, backend.getdrafts.com, UnlockVIP-Myself
+
+#keep
+DOMAIN, api.gotokeep.com, UnlockVIP-Myself
 
 
 
@@ -63,9 +66,7 @@ DOMAIN, license.pdfexpert.com, UnlockVIP-Myself
 DOMAIN, vip1.kuwo.cn, UnlockVIP-Myself
 
 
-############################脚本还没有
-#keep
-DOMAIN, api.gotokeep.com, UnlockVIP-Myself
+
 
 
 
