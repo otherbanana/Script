@@ -29,6 +29,7 @@
 ## Mitmproxy
 ### Mitm.py : mitmproxy服务器端的py脚本
 ### Mitmproxy-ca-cert.pem : 证书
+### Ca-cert.pem : Surge/QuantumultX/Shadowrocket/Thor多合一证书
 
 
 
