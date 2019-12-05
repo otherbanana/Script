@@ -2,7 +2,7 @@
 host, api.calm.com, UnlockVIP-Myself
 
 #Termius
-host, api.termius.com, UnlockVIP-Myself
+#host, api.termius.com, UnlockVIP-Myself
 
 #VSCO
 host, vsco.co, UnlockVIP-Myself
