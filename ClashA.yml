@@ -120,7 +120,6 @@ Proxy Group:
       - DOSG-V2ray-plugin
       - DOSG-V2ray
 Rule:
-  - DOMAIN,adashbc.ut.taobao.com,Unlockvip
   - DOMAIN-SUFFIX,music.163.com,🎵 UnblockNeteaseMusic
   - DOMAIN-SUFFIX,music.126.net,🎵 UnblockNeteaseMusic
   - DOMAIN-SUFFIX,163.com,🎵 UnblockNeteaseMusic
@@ -128,6 +127,7 @@ Rule:
   - IP-CIDR,59.111.181.0/24,🎵 UnblockNeteaseMusic
   - IP-CIDR,115.236.118.0/24,🎵 UnblockNeteaseMusic
   - IP-CIDR,223.252.199.0/24,🎵 UnblockNeteaseMusic
+  - DOMAIN,adashbc.ut.taobao.com,Unlockvip
   - DOMAIN,api.smoot.apple.com,DIRECT
   - DOMAIN,captive.apple.com,DIRECT
   - DOMAIN,configuration.apple.com,DIRECT
