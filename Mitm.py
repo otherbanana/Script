@@ -9,7 +9,7 @@ class Modify:
    obj["account"]["plan_type"]="Premium" 
    obj["account"]["user_type"]="Premium" 
    obj["account"]["current_period"]["until"]="2020-10-10T03:27:34" 
-   flow.response.set_text(json.dumps(obj)) 
+   flow.response.set_text(json.dumps(obj))
    
   if flow.request.url.startswith("https://license.pdfexpert.com/api/1.0/pdfexpert6/subscription/refresh"): 
    obj = {'originalTransactionId':'20000618444996','subscriptionState':'trial','isInGracePeriod':False,'subscriptionExpirationDate':'13:15 03/11/2099','subscriptionAutoRenewStatus':'autoRenewOn','isEligibleForIntroPeriod':False,'isPDFExpert6User':False,'subscriptionReceiptId':'1572178404000'} 
@@ -22,6 +22,9 @@ class Modify:
    
   if flow.request.url.startswith("http://limneos.net/buy.php"): 
    flow.response.set_text('1') 
+   
+  if flow.request.url.startswith("http://iarrays.com/check/check/keyvalidator.php"): 
+   flow.response.set_text('T09PT0NPT0wkQ3JhY2tlZEJ5QHB1bGFuZHJlcw==')
    
   if flow.request.url.startswith("https://kuwo.cn"): 
    obj = json.loads(flow.response.get_text()) 
@@ -47,10 +50,6 @@ class Modify:
    obj["user_subscription"] = {'user_id':54624336,'subscription_code':'VSCOANNUAL','sku':'VSCOANNUAL','expired': False,'starts_on_sec':1560831070,'expires_on_sec':16555360940000,'last_verified_sec':15608310700000,'canceled_at_sec':None,'source':1,'payment_type':2,'invalid_reason':2,'is_active':True}
    flow.response.set_text(json.dumps(obj))
    
-  if flow.request.url.startswith("https://p.du.163.com/gain/readtime/info.json"):
-   obj = json.loads(flow.response.get_text())
-   obj["tradeEndTime"] = "1679685290000";
-   flow.response.set_text(json.dumps(obj))
    
   if flow.request.url.startswith("https://biz.caiyunapp.com/v2/user?app_name=weather"):
    obj = json.loads(flow.response.get_text())
@@ -177,6 +176,108 @@ class Modify:
    obj['user']['biz']['is_xy_vip'] = True;
    obj['user']['biz']['xy_vip_expire'] = "4096483190";
    flow.response.set_text(json.dumps(obj))
+   
+  if flow.request.url.startswith("https://book.haitunwallet.com/app/vip/status"):
+   obj = json.loads(flow.response.get_text())
+   obj = {
+          "data": {
+                   "level": 2,
+                   "status": 1,
+                   "openTime": "2099-10-20",
+                   "startTime": "2099-10-20",
+                   "endTime": "2099-10-20",
+                   "shareToken": ""
+                                   },
+                   "code": 0,
+                   "msg": "返回成功"
+                                   };
+   flow.response.set_text(json.dumps(obj))
+
+
+  if flow.request.url.startswith("https://mubu.com/api/app/user/info"):
+   obj = json.loads(flow.response.get_text())
+   obj = {
+   "code": 0,
+   "data": {
+      "encryptPassword": None,
+      "id": 4962624,
+      "level": 1,
+      "name": "Lucien",
+      "passSecure": False,
+      "phone": None,
+      "photo": "https://mubu.com/photo/fa3b0a2d-039b-433a-aad8-b87d9e558df6.jpg",
+      "qqId": None,
+      "qqName": None,
+      "vipEndDate": "20330101",
+      "wxId": "oahEws_u3tYBYU6V-d3zM17pQdek",
+      "wxName": "Lucien"
+   },
+   "msg" : None
+};
+   flow.response.set_text(json.dumps(obj))
+   
+  if flow.request.url.startswith("https://backend.getdrafts.com/api/v1/verification"):
+   obj = json.loads(flow.response.get_text())
+   obj = {
+  "active_expires_at": "2037-01-01T00:00:00Z",
+  "is_subscription_active": True,
+  "active_subscription_type": "premium",
+  "is_blocked": False
+};
+   flow.response.set_text(json.dumps(obj))
+
+  if flow.request.url.startswith('https://api.gotokeep.com'):  
+                #print(flow.request.url)  仅surge可以用            
+                vip1 = 'dynamic'
+                vip2 = 'subject'
+                if vip1 in flow.request.url:
+                    obj = json.loads(flow.response.get_text())
+                    #print(obj)
+                    obj['data']['permission']['isMembership'] = True
+                    obj['data']['permission']['membership'] = True
+                    obj['data']['permission']['inSuit'] = True
+                    flow.response.set_text(json.dumps(obj))
+                if vip2 in flow.request.url:
+                    obj = json.loads(flow.response.get_text())
+                    #print(flow.request.url)
+                    for i in range(len(obj['data']['subjectInfos'])) :
+                        obj['data']['subjectInfos'][i]['needPay'] = False                          
+                        #print('keep')  
+                    #print(obj['data']['subjectInfos'])            
+                    flow.response.set_text(json.dumps(obj))
+
+  if flow.request.url.startswith("https://p.du.163.com/gain/readtime/info.json"):
+   obj = json.loads(flow.response.get_text())
+   obj['tradeEndTime'] = 1679685290000
+   flow.response.set_text(json.dumps(obj))
+
+  if flow.request.url.startswith("https://cn.eagle.cool/register"):
+    obj = json.loads(flow.response.get_text())
+    obj = {
+ "success": True,
+ "message": "註冊成功",
+ "license": {
+  "devices": "[{\"activeAt\":1575269201873,\"name\":\"localhost\",\"platform\":\"Darwin\",\"machineID\":\"6812852037901449dbec9341d023b547294f4e3dbd0d922fb690a5e008220ba4\"}]",
+  "email": "472085476@qq.com",
+  "_id": "5de4b1d8e6561d7e12460f8b",
+  "updatedBy": "5ab0ee5917f78e134b18a373",
+  "updatedAt": "2020-12-02T06:46:41.890Z",
+  "createdBy": "5ab0ee5917f78e134b18a373",
+  "createdAt": "2020-12-02T06:40:24.205Z",
+  "createdDate": "2020-12-01T18:40:23.000Z",
+  "code": "TRIAL-DA82-48D8-8727-9B0F",
+  "__v": 0,
+  "deviceCount": 3
+ },
+ "verificatioCode": "M5J0JES8+2/8gCstj8l9Cux4J6TOgJLoVrWfr64n4778+Uc4OAHGVPUV+INVNCV5mOKj5z9bV+pyOerGULTzI7DcBpqH60waL5v/M2M3sZ5qyW8j/O8MkHcaJ5c4taAuz2jo6IAson+9nGMJT+l9ZtGuLRSwlHzTXzPyMl8gI70vSRjFfafItVaD5dJxGl6e19hzmLvyh3O3HZEmaxMEashLza+J70+JbeFhXiXdv9FPERT40UStgGuJSnkPg1Ero6ivbW6yvW1UfjrKjeee9GzGaTxJmNKXFH7wbgtie6JCQwdvU5Qg6YSeSr+Lvwl27b2o/PIDEMvGeE/lrUsIYg=="
+}
+    flow.response.set_text(json.dumps(obj))
+    
+  if flow.request.url.startswith("http://m.ktlshu.vip/8/find"):
+    flow.response.set_text('vSzghuHsv6yt1HoXJuCZxnPEM6HlqT+buKWPPv4/Yv266mPEJo5helHPELLFjICLITyFqE9jW6mGCxI0SlhHJ4b5NjbR8vXYthcJwKHhLMEe1XPyus8b77RY0i8bl6rfE9qtLTXJYnc5kj6gXmg7/2v5BffUXYO1TinFjKCt2MybymvIoo6/TpqOFjfbqXAqQrwODdktPy/gDVylBr9aGenWwIeLUoxNZvEm8ATUMXinymA4vemCtwZ+9a2LpFKszwrxyKA+5mevEt670b6LPrSsZxnFh1Z5ljB+r3A06yQmHUk1/IW/a7T28++RBlnhu8cyIrNXcoCgyTGDaTr0KsYP1ngdlY12Vz2pBm0I5hyHPK5VytoISNwl8bg8COKVVBxT+aYyoVsRKQLapn30XWeA1xoMelKMs3VE1emiowV1de6vdt11ogrr55UOYdhqg8Pu7wEwtg1at57D+xBB3av+Jf6ZD5L3fh/oBpNy6HF/Ry9nyCpPTGmcB6V5lBQl05cVgQSVC0vCeVHyW3R16sV4BOUgPXUkOlpenVAZ+nY6KAZBLw0MrMJvXMXi7TBw1REH/liACUnDSj67rXOFrVcXqail8gkBQJMidIpJMHw=')
+    
+    flow.response.set_text(json.dumps(obj))
+  
   
 
  def request(self, flow): 
