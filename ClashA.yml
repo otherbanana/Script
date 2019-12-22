@@ -80,14 +80,6 @@ Proxy Group:
     proxies:
       - DIRECT
       - 🍃 Proxy
-  - name: 🍎 Only
-    type: select
-    proxies:
-      - DIRECT
-      - ALIHK-SS
-      - DOSG-SS
-      - ALIHK-V2ray-plugin
-      - DOSG-V2ray-plugin
   - name: ☁️ Others
     type: select
     proxies:
@@ -98,16 +90,11 @@ Proxy Group:
     proxies:
       - DIRECT
       - 网易云-国内-公开证书
-  - name: Unlockvip
+  - name: 👑 Unlockvip
     type: select
     proxies:
       - DIRECT
       - Unlock
-  - name: 🚫 AdBlock
-    type: select
-    proxies:
-      - DIRECT
-      - REJECT
   - name: 🏃 Auto
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -127,7 +114,22 @@ Rule:
   - IP-CIDR,59.111.181.0/24,🎵 UnblockNeteaseMusic
   - IP-CIDR,115.236.118.0/24,🎵 UnblockNeteaseMusic
   - IP-CIDR,223.252.199.0/24,🎵 UnblockNeteaseMusic
-  - DOMAIN,m.ktlshu.vip,Unlockvip
+  - DOMAIN,m.ktlshu.vip,👑 Unlockvip
+  - DOMAIN,api.calm.com,👑 Unlockvip
+  #DOMAIN,api.termius.com,👑 Unlockvip
+  - DOMAIN,vsco.co,👑 Unlockvip
+  - DOMAIN,api.interpreter.caiyunai.com,👑 Unlockvip
+  - DOMAIN,ticktick.com,👑 Unlockvip
+  - DOMAIN,biz.caiyunapp.com,👑 Unlockvip
+  - DOMAIN,lambda.us-east-1.amazonaws.com,👑 Unlockvip
+  - DOMAIN,apimboom2.globaldelight.net,👑 Unlockvip
+  - DOMAIN,p.du.163.com,👑 Unlockvip
+  - DOMAIN,dida365.com,👑 Unlockvip
+  - DOMAIN,book.haitunwallet.com,👑 Unlockvip
+  - DOMAIN,mubu.com,👑 Unlockvip
+  - DOMAIN,p.du.163.com,👑 Unlockvip
+  - DOMAIN,backend.getdrafts.com,👑 Unlockvip
+  - DOMAIN,api.gotokeep.com,👑 Unlockvip
   - DOMAIN,api.smoot.apple.com,DIRECT
   - DOMAIN,captive.apple.com,DIRECT
   - DOMAIN,configuration.apple.com,DIRECT
