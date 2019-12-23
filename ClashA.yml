@@ -110,21 +110,21 @@ Rule:
   - IP-CIDR,115.236.118.0/24,🎵 UnblockNeteaseMusic
   - IP-CIDR,223.252.199.0/24,🎵 UnblockNeteaseMusic
   - DOMAIN,m.ktlshu.vip,👑 Unlockvip
-  - DOMAIN,api.calm.com,👑 Unlockvip
+  #- DOMAIN,api.calm.com,👑 Unlockvip
   #DOMAIN,api.termius.com,👑 Unlockvip
-  - DOMAIN,vsco.co,👑 Unlockvip
-  - DOMAIN,api.interpreter.caiyunai.com,👑 Unlockvip
-  - DOMAIN,ticktick.com,👑 Unlockvip
-  - DOMAIN,biz.caiyunapp.com,👑 Unlockvip
-  - DOMAIN,lambda.us-east-1.amazonaws.com,👑 Unlockvip
-  - DOMAIN,apimboom2.globaldelight.net,👑 Unlockvip
-  - DOMAIN,p.du.163.com,👑 Unlockvip
-  - DOMAIN,dida365.com,👑 Unlockvip
-  - DOMAIN,book.haitunwallet.com,👑 Unlockvip
-  - DOMAIN,mubu.com,👑 Unlockvip
-  - DOMAIN,p.du.163.com,👑 Unlockvip
-  - DOMAIN,backend.getdrafts.com,👑 Unlockvip
-  - DOMAIN,api.gotokeep.com,👑 Unlockvip
+  #- DOMAIN,vsco.co,👑 Unlockvip
+  #- DOMAIN,api.interpreter.caiyunai.com,👑 Unlockvip
+  #- DOMAIN,ticktick.com,👑 Unlockvip
+  #- DOMAIN,biz.caiyunapp.com,👑 Unlockvip
+  #- DOMAIN,lambda.us-east-1.amazonaws.com,👑 Unlockvip
+  #- DOMAIN,apimboom2.globaldelight.net,👑 Unlockvip
+  #- DOMAIN,p.du.163.com,👑 Unlockvip
+  #- DOMAIN,dida365.com,👑 Unlockvip
+  #- DOMAIN,book.haitunwallet.com,👑 Unlockvip
+  #- DOMAIN,mubu.com,👑 Unlockvip
+  #- DOMAIN,p.du.163.com,👑 Unlockvip
+  #- DOMAIN,backend.getdrafts.com,👑 Unlockvip
+  #- DOMAIN,api.gotokeep.com,👑 Unlockvip
   - DOMAIN,api.smoot.apple.com,DIRECT
   - DOMAIN,captive.apple.com,DIRECT
   - DOMAIN,configuration.apple.com,DIRECT
