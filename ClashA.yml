@@ -111,7 +111,7 @@ Rule:
   - IP-CIDR,223.252.199.0/24,🎵 UnblockNeteaseMusic
   - DOMAIN,m.ktlshu.vip,👑 Unlockvip
   #- DOMAIN,api.calm.com,👑 Unlockvip
-  #DOMAIN,api.termius.com,👑 Unlockvip
+  #- DOMAIN,api.termius.com,👑 Unlockvip
   #- DOMAIN,vsco.co,👑 Unlockvip
   #- DOMAIN,api.interpreter.caiyunai.com,👑 Unlockvip
   #- DOMAIN,ticktick.com,👑 Unlockvip
