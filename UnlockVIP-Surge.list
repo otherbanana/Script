@@ -10,9 +10,6 @@ DOMAIN, vsco.co, UnlockVIP-Myself
 #彩云小译
 DOMAIN, api.interpreter.caiyunai.com, UnlockVIP-Myself
 
-#滴答清单
-DOMAIN, ticktick.com, UnlockVIP-Myself
-
 #彩云天气
 DOMAIN, biz.caiyunapp.com, UnlockVIP-Myself
 
@@ -22,7 +19,10 @@ DOMAIN, lambda.us-east-1.amazonaws.com, UnlockVIP-Myself
 #Boom
 DOMAIN, apimboom2.globaldelight.net, UnlockVIP-Myself
 
-#滴答清单
+#滴答清单1
+DOMAIN, ticktick.com, UnlockVIP-Myself
+
+#滴答清单2
 DOMAIN, dida365.com, UnlockVIP-Myself
 
 #海豚记账
