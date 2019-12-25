@@ -40,8 +40,6 @@ host, backend.getdrafts.com, UnlockVIP-Myself
 #keep
 host, api.gotokeep.com, UnlockVIP-Myself
 
-#dayone
-#host, dayone.me, UnlockVIP-Myself
 
 ############################越狱插件
 #limneos越狱插件
