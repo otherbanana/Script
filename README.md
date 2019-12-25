@@ -2,8 +2,7 @@
 
 ## Quantumuyt X
 ### UnlockVIP-QuantumultX.list : Quantumlt X 使用的规则集
-### QuantumultX-addition.conf : 自己的另外添加的QuantumultX脚本
-### QuantumultX-yebi-rewrite.conf : 修改了野比的本地订阅脚本
+### QuantumultX-mix-rewrite.conf : 修改了野比+越南佬的本地订阅脚本，另外添加自己的脚本
 
 
 
