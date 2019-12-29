@@ -12,13 +12,13 @@ Proxy:
     port: 34567
     type: http
   - type: http
-    server: banana-zone.me
+    server: banana-zone.top
     port: 12588
     username: banana
     password: qwe123
     name: Unlock
   - type: ss
-    server: banana-zone.me
+    server: banana-zone.top
     port: 1688
     password: qwe123
     cipher: aes-128-gcm
@@ -31,7 +31,7 @@ Proxy:
     name: DOSG-SS
   - name: "ALIHK-V2ray-plugin"
     type: ss
-    server: banana-zone.me
+    server: banana-zone.top
     port: 443
     cipher: aes-128-gcm
     password: "qwe123"
@@ -40,7 +40,7 @@ Proxy:
       mode: websocket # no QUIC now
       tls: true # wss
       skip-cert-verify: true
-    # host: banana-zone.me
+    # host: banana-zone.top
       path: "/s"
     # mux: true
     # headers:
@@ -61,7 +61,7 @@ Proxy:
     # mux: true
     # headers:
     #   custom: value
-  - { name: "ALIHK-V2ray", type: vmess, server: banana-zone.me, port: 16823, uuid: 68b0fb83-4574-4204-8856-64c248715c97, alterId: 32, cipher: auto }
+  - { name: "ALIHK-V2ray", type: vmess, server: banana-zone.top, port: 16823, uuid: 68b0fb83-4574-4204-8856-64c248715c97, alterId: 32, cipher: auto }
   - { name: "DOSG-V2ray", type: vmess, server: banana-zone.tk, port: 16823, uuid: 68b0fb83-4574-4204-8856-64c248715c97, alterId: 32, cipher: auto }
 Proxy Group:
   - name: 🍃 Proxy
@@ -75,6 +75,7 @@ Proxy Group:
       - ALIHK-V2ray
       - DOSG-V2ray-plugin
       - DOSG-V2ray
+      - Unlock
   - name: ☁️ Others
     type: select
     proxies:
