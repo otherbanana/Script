@@ -1,0 +1,31 @@
+{
+ "app_id": "6702beb9-cf07-48a3-9ebc-60bfe08ca35d",
+ "net_type": 0,
+ "as_id": "OptedOut",
+ "ios_bundle": "com.kairos.duet",
+ "tags": {
+  "has_air": True,
+  "is_sandbox": "",
+  "duet_connections": "27",
+  "total_time_last_week": "8.840630408028762",
+  "total_connections_last_week": "9",
+  "rated_app": "0",
+  "total_time_this_week": "0",
+  "user_name": "iPad",
+  "push_message": "You used duet for less than an hour last week. Use that iPad and be twice as productive!",
+  "total_connections_this_week": "0",
+  "has_pro": "0"
+ },
+ "device_type": 0,
+ "sdk_type": "native",
+ "sdk": "020905",
+ "identifier": "{length=32,bytes=0x65e1d156ea23d997121906a39aae71c4...589d8bd0c9455c55}",
+ "language": "zh-Hans-US",
+ "device_os": "13.3",
+ "game_version": "2.2.4.2",
+ "timezone": 28800,
+ "ad_id": "D05D62A8-4F35-41E7-B9B9-23385D889E7A",
+ "notification_types": 31,
+ "device_model": "iPad5,4",
+ "carrier": "中国移动"
+}
