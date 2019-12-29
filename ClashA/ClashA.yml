@@ -91,17 +91,17 @@ Proxy Group:
   - name: ☁️ Others
     type: select
     proxies:
-      - 🚀Direct
+      - 🚀 Direct
       - 🍃 Proxy
   - name: 🎵 UnblockNeteaseMusic
     type: select
     proxies:
-      - 🚀Direct
+      - 🚀 Direct
       - 网易云-国内-公开证书
   - name: 👑 Unlockvip
     type: select
     proxies:
-      - 🚀Direct
+      - 🚀 Direct
       - Unlock
   - name: 🏃 Auto
     type: url-test
