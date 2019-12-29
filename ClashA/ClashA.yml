@@ -64,7 +64,7 @@ Proxy:
   - { name: "ALIHK-V2ray", type: vmess, server: banana-zone.top, port: 16823, uuid: 68b0fb83-4574-4204-8856-64c248715c97, alterId: 32, cipher: auto }
   - { name: "DOSG-V2ray", type: vmess, server: banana-zone.tk, port: 16823, uuid: 68b0fb83-4574-4204-8856-64c248715c97, alterId: 32, cipher: auto }
 Proxy Group:
-  - name: 🚀Direct
+  - name: 🚀 Direct
     type: select
     proxies:
       - 🏃 Auto
@@ -80,7 +80,7 @@ Proxy Group:
     type: select
     proxies:
       - 🏃 Auto
-      - 🚀Direct
+      - 🚀 Direct
       - ALIHK-SS
       - DOSG-SS
       - ALIHK-V2ray-plugin
