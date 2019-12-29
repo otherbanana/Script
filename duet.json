@@ -4,7 +4,7 @@
  "as_id": "OptedOut",
  "ios_bundle": "com.kairos.duet",
  "tags": {
-  "has_air": True,
+  "has_air": true,
   "is_sandbox": "",
   "duet_connections": "27",
   "total_time_last_week": "8.840630408028762",
