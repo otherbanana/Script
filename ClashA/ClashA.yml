@@ -64,7 +64,7 @@ Proxy:
   - { name: "ALIHK-V2ray", type: vmess, server: banana-zone.top, port: 16823, uuid: 68b0fb83-4574-4204-8856-64c248715c97, alterId: 32, cipher: auto }
   - { name: "DOSG-V2ray", type: vmess, server: banana-zone.tk, port: 16823, uuid: 68b0fb83-4574-4204-8856-64c248715c97, alterId: 32, cipher: auto }
 Proxy Group:
-  - name: 🍃 Proxy
+  - name: 🚀Direct
     type: select
     proxies:
       - 🏃 Auto
@@ -76,20 +76,32 @@ Proxy Group:
       - DOSG-V2ray-plugin
       - DOSG-V2ray
       - Unlock
+  - name: 🍃 Proxy
+    type: select
+    proxies:
+      - 🏃 Auto
+      - 🚀Direct
+      - ALIHK-SS
+      - DOSG-SS
+      - ALIHK-V2ray-plugin
+      - ALIHK-V2ray
+      - DOSG-V2ray-plugin
+      - DOSG-V2ray
+      - Unlock
   - name: ☁️ Others
     type: select
     proxies:
-      - DIRECT
+      - 🚀Direct
       - 🍃 Proxy
   - name: 🎵 UnblockNeteaseMusic
     type: select
     proxies:
-      - DIRECT
+      - 🚀Direct
       - 网易云-国内-公开证书
   - name: 👑 Unlockvip
     type: select
     proxies:
-      - DIRECT
+      - 🚀Direct
       - Unlock
   - name: 🏃 Auto
     type: url-test
@@ -951,11 +963,11 @@ Rule:
   - IP-CIDR,91.108.56.0/22,🍃 Proxy
   - IP-CIDR,149.154.160.0/20,🍃 Proxy
   - IP-CIDR,149.154.164.0/22,🍃 Proxy
-  - DOMAIN-SUFFIX,local,DIRECT
-  - IP-CIDR,192.168.0.0/16,DIRECT
-  - IP-CIDR,10.0.0.0/8,DIRECT
-  - IP-CIDR,172.16.0.0/12,DIRECT
-  - IP-CIDR,127.0.0.0/8,DIRECT
-  - IP-CIDR,100.64.0.0/10,DIRECT
-  - GEOIP,CN,DIRECT
+  - DOMAIN-SUFFIX,local,🚀 Direct
+  - IP-CIDR,192.168.0.0/16,🚀 Direct
+  - IP-CIDR,10.0.0.0/8,🚀 Direct
+  - IP-CIDR,172.16.0.0/12,🚀 Direct
+  - IP-CIDR,127.0.0.0/8,🚀 Direct
+  - IP-CIDR,100.64.0.0/10,🚀 Direct
+  - GEOIP,CN,🚀 Direct
   - MATCH,☁️ Others
