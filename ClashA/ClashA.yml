@@ -12,7 +12,7 @@ Proxy:
     port: 34567
     type: http
   - type: http
-    server: banana-zone.top
+    server: banana-zone.tk
     port: 12588
     username: banana
     password: qwe123
@@ -22,55 +22,28 @@ Proxy:
     port: 1688
     password: qwe123
     cipher: aes-128-gcm
-    name: ALIHK-SS
-  - type: ss
-    server: banana-zone.best
-    port: 1688
-    password: qwe123
-    cipher: aes-128-gcm
-    name: DOSG-SS
-  - name: "ALIHK-V2ray-plugin"
-    type: ss
-    server: banana-zone.top
-    port: 443
-    cipher: aes-128-gcm
-    password: "qwe123"
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket # no QUIC now
-      tls: true # wss
-      skip-cert-verify: true
-    # host: banana-zone.top
-      path: "/s"
-    # mux: true
-    # headers:
-    #   custom: value
-  - { name: "ALIHK-V2ray", type: vmess, server: banana-zone.top, port: 16823, uuid: 68b0fb83-4574-4204-8856-64c248715c97, alterId: 32, cipher: auto }
-  - { name: "DOSG-V2ray", type: vmess, server: banana-zone.best, port: 16823, uuid: 68b0fb83-4574-4204-8856-64c248715c97, alterId: 64, cipher: auto }
+    name: DO-SS
+ 
+  - { name: "ALIHK-V2-TK", type: vmess, server: banana-zone.tk, port: 8443, uuid: 68b0fb83-4574-4204-8856-64c248715c97, alterId: 32, cipher: auto, network: ws, ws-path: /, tls: true }
+  - { name: "DOSG-V2ray", type: vmess, server: banana-zone.top, port: 16823, uuid: 68b0fb83-4574-4204-8856-64c248715c97, alterId: 64, cipher: auto }
 Proxy Group:
   - name: 🚀 Direct
     type: select
     proxies:
       - 🏃 Auto
       - DIRECT
-      - ALIHK-SS
       - DOSG-SS
-      - ALIHK-V2ray-plugin
-      - ALIHK-V2ray
       - DOSG-V2ray
+      - ALIHK-V2-TK
       - Unlock
   - name: 🍃 Proxy
     type: select
     proxies:
       - 🏃 Auto
       - 🚀 Direct
-      - ALIHK-SS
       - DOSG-SS
-      - ALIHK-V2ray-plugin
-      - ALIHK-V2ray
-      - DOSG-V2ray-plugin
       - DOSG-V2ray
-      - Unlock
+      - ALIHK-V2-TK
   - name: ☁️ Others
     type: select
     proxies:
@@ -91,11 +64,9 @@ Proxy Group:
     url: http://www.gstatic.com/generate_204
     interval: 1200
     proxies:
-      - ALIHK-SS
       - DOSG-SS
-      - ALIHK-V2ray-plugin
-      - ALIHK-V2ray
       - DOSG-V2ray
+      - ALIHK-V2-TK
 Rule:
   - DOMAIN-SUFFIX,music.163.com,🎵 UnblockNeteaseMusic
   - DOMAIN-SUFFIX,music.126.net,🎵 UnblockNeteaseMusic
