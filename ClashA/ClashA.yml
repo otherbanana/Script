@@ -11,29 +11,33 @@ Proxy:
     server: wyy.edu.bid
     port: 34567
     type: http
+    
   - type: http
     server: banana-zone.tk
     port: 12588
     username: banana
     password: qwe123
     name: Unlock
-  - type: ss
+    
+  - name: DOSG-SS
     server: banana-zone.top
     port: 1688
     password: qwe123
     cipher: aes-128-gcm
-    name: DO-SS
+    type: ss
+  
+  - { name: "DOSG-V2", type: vmess, server: banana-zone.top, port: 16823, uuid: 68b0fb83-4574-4204-8856-64c248715c97, alterId: 32, cipher: auto }
+  - { name: "ALIHK-V2-TK", type: vmess, server: banana-zone.tk, port: 443, uuid: 68b0fb83-4574-4204-8856-64c248715c97, alterId: 32, cipher: auto, network: ws, ws-path: /ray, tls: true }
+  
  
-  - { name: "ALIHK-V2-TK", type: vmess, server: banana-zone.tk, port: 8443, uuid: 68b0fb83-4574-4204-8856-64c248715c97, alterId: 32, cipher: auto, network: ws, ws-path: /, tls: true }
-  - { name: "DOSG-V2ray", type: vmess, server: banana-zone.top, port: 16823, uuid: 68b0fb83-4574-4204-8856-64c248715c97, alterId: 64, cipher: auto }
-Proxy Group:
+ Proxy Group:
   - name: 🚀 Direct
     type: select
     proxies:
       - 🏃 Auto
       - DIRECT
       - DOSG-SS
-      - DOSG-V2ray
+      - DOSG-V2
       - ALIHK-V2-TK
       - Unlock
   - name: 🍃 Proxy
@@ -65,7 +69,7 @@ Proxy Group:
     interval: 1200
     proxies:
       - DOSG-SS
-      - DOSG-V2ray
+      - DOSG-V2
       - ALIHK-V2-TK
 Rule:
   - DOMAIN-SUFFIX,music.163.com,🎵 UnblockNeteaseMusic
