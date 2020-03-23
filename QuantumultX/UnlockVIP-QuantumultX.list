@@ -1,5 +1,8 @@
 #PXX itunes
 HOST-KEYWORD, -buy.itunes.apple.com, UnlockVIP-Myself
+HOST-SUFFIX, -buy.itunes.apple.com, UnlockVIP-Myself
+HOST-KEYWORD, buy.itunes.apple.com, UnlockVIP-Myself
+HOST-SUFFIX, buy.itunes.apple.com, UnlockVIP-Myself
 
 #buyhack
 #host, buy.itunes.apple.com, UnlockVIP-Myself
