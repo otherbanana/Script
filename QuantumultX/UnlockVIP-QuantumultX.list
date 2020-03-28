@@ -61,6 +61,13 @@ host, sk.ulysses.app, UnlockVIP-Myself
 #Xmind
 host, www.xmind.cn, UnlockVIP-Myself
 
+#Playerextreme
+host, secure.istreamer.com, UnlockVIP-Myself
+
+#Dayone
+host, dayone.me, UnlockVIP-Myself
+
+
 ############################越狱插件
 #limneos越狱插件
 host, limneos.net, UnlockVIP-Myself
