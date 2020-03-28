@@ -58,6 +58,9 @@ host, api.gotokeep.com, UnlockVIP-Myself
 #Ulysses
 host, sk.ulysses.app, UnlockVIP-Myself
 
+#Xmind
+host, www.xmind.cn, UnlockVIP-Myself
+
 ############################越狱插件
 #limneos越狱插件
 host, limneos.net, UnlockVIP-Myself
