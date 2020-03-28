@@ -34,7 +34,7 @@ host, biz.caiyunapp.com, UnlockVIP-Myself
 #Drops
 host, lambda.us-east-1.amazonaws.com, UnlockVIP-Myself
 
-#boom
+#Boom
 host, apimboom2.globaldelight.net, UnlockVIP-Myself
 
 #蜗牛阅读
@@ -52,9 +52,11 @@ host, mubu.com, UnlockVIP-Myself
 #Drafts
 host, backend.getdrafts.com, UnlockVIP-Myself
 
-#keep
+#Keep
 host, api.gotokeep.com, UnlockVIP-Myself
 
+#Ulysses
+host, sk.ulysses.app, UnlockVIP-Myself
 
 ############################越狱插件
 #limneos越狱插件
