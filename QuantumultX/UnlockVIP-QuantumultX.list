@@ -67,6 +67,8 @@ host, secure.istreamer.com, UnlockVIP-Myself
 #Dayone
 host, dayone.me, UnlockVIP-Myself
 
+#Elevate
+host, accounts.elevateapp.net, UnlockVIP-Myself
 
 ############################越狱插件
 #limneos越狱插件
