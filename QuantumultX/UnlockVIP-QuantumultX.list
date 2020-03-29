@@ -4,23 +4,53 @@ HOST-SUFFIX, -buy.itunes.apple.com, PXX-UnlockVIP
 HOST-KEYWORD, buy.itunes.apple.com, PXX-UnlockVIP
 HOST-SUFFIX, buy.itunes.apple.com, PXX-UnlockVIP
 
-#buyhack
+#Buyhack
 host, buy.itunes.apple.com, UnlockVIP-Myself
+
+#Boom
+host, apimboom2.globaldelight.net, UnlockVIP-Myself
 
 #Working Copy
 host, education.github.com, UnlockVIP-Myself
 
-#camera360
+#Camera360
 host, bmall.camera360.com, UnlockVIP-Myself
 
 #Calm
 host, api.calm.com, UnlockVIP-Myself
 
+#Drops
+host, lambda.us-east-1.amazonaws.com, UnlockVIP-Myself
+
+#Drafts
+host, backend.getdrafts.com, UnlockVIP-Myself
+
+#Dayone
+host, dayone.me, UnlockVIP-Myself
+
+#Keep
+host, api.gotokeep.com, UnlockVIP-Myself
+
+#KUWO
+host, vip1.kuwo.cn, UnlockVIP-Myself
+
+#PDF
+host, license.pdfexpert.com, UnlockVIP-Myself
+
+#Playerextreme
+host, secure.istreamer.com, UnlockVIP-Myself
+
 #Termius
 host, api.termius.com, UnlockVIP-Myself
 
+#Ulysses
+host, sk.ulysses.app, UnlockVIP-Myself
+
 #VSCO
 host, vsco.co, UnlockVIP-Myself
+
+#Xmind
+host, www.xmind.cn, UnlockVIP-Myself
 
 #彩云小译
 host, api.interpreter.caiyunai.com, UnlockVIP-Myself
@@ -30,12 +60,6 @@ host, ticktick.com, UnlockVIP-Myself
 
 #彩云天气
 host, biz.caiyunapp.com, UnlockVIP-Myself
-
-#Drops
-host, lambda.us-east-1.amazonaws.com, UnlockVIP-Myself
-
-#Boom
-host, apimboom2.globaldelight.net, UnlockVIP-Myself
 
 #蜗牛阅读
 host, p.du.163.com, UnlockVIP-Myself
@@ -49,26 +73,19 @@ host, book.haitunwallet.com, UnlockVIP-Myself
 #幕布
 host, mubu.com, UnlockVIP-Myself
 
-#Drafts
-host, backend.getdrafts.com, UnlockVIP-Myself
 
-#Keep
-host, api.gotokeep.com, UnlockVIP-Myself
 
-#Ulysses
-host, sk.ulysses.app, UnlockVIP-Myself
 
-#Xmind
-host, www.xmind.cn, UnlockVIP-Myself
 
-#Playerextreme
-host, secure.istreamer.com, UnlockVIP-Myself
 
-#Dayone
-host, dayone.me, UnlockVIP-Myself
 
-#Elevate
-host, accounts.elevateapp.net, UnlockVIP-Myself
+
+
+
+
+
+
+
 
 ############################越狱插件
 #limneos越狱插件
@@ -79,28 +96,3 @@ host, iarrays.com, UnlockVIP-Myself
 
 #iCleaner Pro越狱插件-未成功
 host, ib-soft.net, UnlockVIP-Myself
-
-
-
-
-############################脚本有，但是APP还没用
-#PDF
-host, license.pdfexpert.com, UnlockVIP-Myself
-
-#KUWO
-host, vip1.kuwo.cn, UnlockVIP-Myself
-
-
-############################脚本还没有
-
-
-
-
-
-
-
-
-
-
-
-
