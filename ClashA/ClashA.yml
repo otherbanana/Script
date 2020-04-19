@@ -7,10 +7,6 @@ log-level: info
 external-controller: 0.0.0.0:6170
 secret: ""
 Proxy:
-  - name: 网易云-国内-公开证书
-    server: wyy.edu.bid
-    port: 34567
-    type: http
     
   - type: http
     server: banana-zone.tk
@@ -56,7 +52,6 @@ Proxy Group:
     type: select
     proxies:
       - 🚀 Direct
-      - 网易云-国内-公开证书
   - name: 👑 Unlockvip
     type: select
     proxies:
