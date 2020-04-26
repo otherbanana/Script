@@ -85,8 +85,8 @@ host, www.40sishi.com, UnlockVIP-Myself
 #Endel
 host, api-production.endel.io, UnlockVIP-Myself
 
-
-
+#潮汐
+host, tide-api.moreless.io, UnlockVIP-Myself
 
 
 
