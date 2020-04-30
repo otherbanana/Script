@@ -94,7 +94,8 @@ host, subs.platforms.team, UnlockVIP-Myself
 #Duet display
 host, rdp.duetdisplay.com, UnlockVIP-Myself
 
-
+#Faceapp
+host, api.faceapp.io, UnlockVIP-Myself
 
 
 ############################越狱插件
