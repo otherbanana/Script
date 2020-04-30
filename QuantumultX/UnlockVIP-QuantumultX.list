@@ -91,7 +91,8 @@ host, tide-api.moreless.io, UnlockVIP-Myself
 #Productive/sleepzy
 host, subs.platforms.team, UnlockVIP-Myself
 
-
+#Duet display
+host, rdp.duetdisplay.com, UnlockVIP-Myself
 
 
 
