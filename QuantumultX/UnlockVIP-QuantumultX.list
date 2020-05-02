@@ -97,6 +97,8 @@ host, rdp.duetdisplay.com, UnlockVIP-Myself
 #Faceapp
 host, api.faceapp.io, UnlockVIP-Myself
 
+#Faceapp
+host, api-kinemaster-assetstore.kinemasters.com, UnlockVIP-Myself
 
 ############################越狱插件
 #limneos越狱插件
