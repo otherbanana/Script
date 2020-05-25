@@ -100,6 +100,9 @@ host, api.faceapp.io, UnlockVIP-Myself
 #Faceapp
 host, api-kinemaster-assetstore.kinemasters.com, UnlockVIP-Myself
 
+#Altstore
+host, www.patreon.com, UnlockVIP-Myself
+
 ############################越狱插件
 #limneos越狱插件
 host, limneos.net, UnlockVIP-Myself
