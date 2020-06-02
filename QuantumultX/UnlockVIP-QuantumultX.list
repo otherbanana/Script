@@ -103,6 +103,9 @@ host, api-kinemaster-assetstore.kinemasters.com, UnlockVIP-Myself
 #Altstore
 host, www.patreon.com, UnlockVIP-Myself
 
+#医脉通
+host, api.medlive.cn, UnlockVIP-Myself
+
 ############################越狱插件
 #limneos越狱插件
 host, limneos.net, UnlockVIP-Myself
