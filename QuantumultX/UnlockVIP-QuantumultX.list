@@ -4,6 +4,9 @@ HOST-SUFFIX, -buy.itunes.apple.com, PXX-UnlockVIP
 HOST-KEYWORD, buy.itunes.apple.com, PXX-UnlockVIP
 HOST-SUFFIX, buy.itunes.apple.com, PXX-UnlockVIP
 
+#Adguard
+host, mobile-api.adguard.com, UnlockVIP-Myself
+
 #Buyhack
 host, buy.itunes.apple.com, UnlockVIP-Myself
 
