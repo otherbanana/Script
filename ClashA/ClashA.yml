@@ -7,55 +7,29 @@ log-level: info
 external-controller: 0.0.0.0:6170
 secret: ""
 Proxy:
-    
-  - type: http
-    server: banana-zone.tk
-    port: 12588
-    username: banana
-    password: qwe123
-    name: Unlock
-    
-  - name: DOSG-SS
-    server: banana-zone.top
-    port: 1688
-    password: qwe123
-    cipher: aes-128-gcm
-    type: ss
-  
+  - { name: "DOSG-SS", type: ss, server: banana-zone.top, port: 1688, password: qwe123, cipher: aes-128-gcm }
   - { name: "DOSG-V2", type: vmess, server: banana-zone.top, port: 16823, uuid: 68b0fb83-4574-4204-8856-64c248715c97, alterId: 32, cipher: auto }
+  - { name: "DOSG-Trojan", type: trojan, server: banana-zone.top, port: 443, password: qwe123, cipher: aes-128-gcm, skip-cert-verify: true }
   - { name: "ALIHK-V2-TK", type: vmess, server: banana-zone.tk, port: 443, uuid: 68b0fb83-4574-4204-8856-64c248715c97, alterId: 32, cipher: auto, network: ws, ws-path: /ray, tls: true }
-  
+  - { name: "Unlock", type: http, server: banana-zone.tk, port: 12588, username: banana, password: qwe123 }
 Proxy Group:
-  - name: 🚀 Direct
-    type: select
-    proxies:
-      - 🏃 Auto
-      - DIRECT
-      - DOSG-SS
-      - DOSG-V2
-      - ALIHK-V2-TK
-      - Unlock
   - name: 🍃 Proxy
     type: select
     proxies:
       - 🏃 Auto
-      - 🚀 Direct
       - DOSG-SS
       - DOSG-V2
+      - DOSG-Trojan
       - ALIHK-V2-TK
   - name: ☁️ Others
     type: select
     proxies:
-      - 🚀 Direct
       - 🍃 Proxy
-  - name: 🎵 UnblockNeteaseMusic
-    type: select
-    proxies:
-      - 🚀 Direct
+      - DIRECT
   - name: 👑 Unlockvip
     type: select
     proxies:
-      - 🚀 Direct
+      - DIRECT
       - Unlock
   - name: 🏃 Auto
     type: url-test
@@ -64,15 +38,16 @@ Proxy Group:
     proxies:
       - DOSG-SS
       - DOSG-V2
+      - DOSG-Trojan
       - ALIHK-V2-TK
 Rule:
-  - DOMAIN-SUFFIX,music.163.com,🎵 UnblockNeteaseMusic
-  - DOMAIN-SUFFIX,music.126.net,🎵 UnblockNeteaseMusic
-  - DOMAIN-SUFFIX,163.com,🎵 UnblockNeteaseMusic
-  - DOMAIN-KEYWORD,netease,🎵 UnblockNeteaseMusic
-  - IP-CIDR,59.111.181.0/24,🎵 UnblockNeteaseMusic
-  - IP-CIDR,115.236.118.0/24,🎵 UnblockNeteaseMusic
-  - IP-CIDR,223.252.199.0/24,🎵 UnblockNeteaseMusic
+  #- DOMAIN-SUFFIX,music.163.com,🎵 UnblockNeteaseMusic
+  #- DOMAIN-SUFFIX,music.126.net,🎵 UnblockNeteaseMusic
+  #- DOMAIN-SUFFIX,163.com,🎵 UnblockNeteaseMusic
+  #- DOMAIN-KEYWORD,netease,🎵 UnblockNeteaseMusic
+  #- IP-CIDR,59.111.181.0/24,🎵 UnblockNeteaseMusic
+  #- IP-CIDR,115.236.118.0/24,🎵 UnblockNeteaseMusic
+  #- IP-CIDR,223.252.199.0/24,🎵 UnblockNeteaseMusic
   - DOMAIN,m.ktlshu.vip,👑 Unlockvip
   - DOMAIN,tide-api.moreless.io,👑 Unlockvip
   #- DOMAIN,api.calm.com,👑 Unlockvip
@@ -915,11 +890,11 @@ Rule:
   - IP-CIDR,91.108.56.0/22,🍃 Proxy
   - IP-CIDR,149.154.160.0/20,🍃 Proxy
   - IP-CIDR,149.154.164.0/22,🍃 Proxy
-  - DOMAIN-SUFFIX,local,🚀 Direct
-  - IP-CIDR,192.168.0.0/16,🚀 Direct
-  - IP-CIDR,10.0.0.0/8,🚀 Direct
-  - IP-CIDR,172.16.0.0/12,🚀 Direct
-  - IP-CIDR,127.0.0.0/8,🚀 Direct
-  - IP-CIDR,100.64.0.0/10,🚀 Direct
-  - GEOIP,CN,🚀 Direct
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT
+  - GEOIP,CN,DIRECT
   - MATCH,☁️ Others
