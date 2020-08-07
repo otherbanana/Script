@@ -11,9 +11,6 @@ proxies:
   - {name: "🇸🇬 专线 新加坡 B4 [3.5x | GD-NTT]", server: iplc01.2lhejn65srr2rjz6.node.cccylink.network, port: 8225, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 48077:1HDiaG, obfs-param: 8d78548077.microsoft.com}
   - {name: "🇸🇬 专线 新加坡 B5 [3.5x | GD-NTT]", server: iplc02.hbjcbjcxx7ryrwd5.node.cccylink.network, port: 8225, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 48077:1HDiaG, obfs-param: 8d78548077.microsoft.com}
   - {name: "🇸🇬 专线 新加坡 B6 [3.5x | GD-NTT]", server: iplc03.gmpriktlg4ywdjjt.node.cccylink.network, port: 8225, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 48077:1HDiaG, obfs-param: 8d78548077.microsoft.com}
-  - {name: "🇯🇵 专线 日本 B1 [3.5x | GD-Linode]", server: iplc01.2lhejn65srr2rjz6.node.cccylink.network, port: 8210, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 48077:1HDiaG, obfs-param: 8d78548077.microsoft.com}
-  - {name: "🇯🇵 专线 日本 B2 [3.5x | GD-Linode]", server: iplc02.hbjcbjcxx7ryrwd5.node.cccylink.network, port: 8210, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 48077:1HDiaG, obfs-param: 8d78548077.microsoft.com}
-  - {name: "🇯🇵 专线 日本 B3 [3.5x | GD-Linode]", server: iplc03.gmpriktlg4ywdjjt.node.cccylink.network, port: 8210, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 48077:1HDiaG, obfs-param: 8d78548077.microsoft.com}
   - {name: "🇺🇸 专线 美国 B1 [3.5x | GD-Linode]", server: iplc01.2lhejn65srr2rjz6.node.cccylink.network, port: 8230, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 48077:1HDiaG, obfs-param: 8d78548077.microsoft.com}
   - {name: "🇺🇸 专线 美国 B2 [3.5x | GD-Linode]", server: iplc02.hbjcbjcxx7ryrwd5.node.cccylink.network, port: 8230, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 48077:1HDiaG, obfs-param: 8d78548077.microsoft.com}
   - {name: "🇺🇸 专线 美国 B3 [3.5x | GD-Linode]", server: iplc03.gmpriktlg4ywdjjt.node.cccylink.network, port: 8230, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 48077:1HDiaG, obfs-param: 8d78548077.microsoft.com}
@@ -35,9 +32,6 @@ proxy-groups:
       - 🇸🇬 专线 新加坡 B4 [3.5x | GD-NTT]
       - 🇸🇬 专线 新加坡 B5 [3.5x | GD-NTT]
       - 🇸🇬 专线 新加坡 B6 [3.5x | GD-NTT]
-      - 🇯🇵 专线 日本 B1 [3.5x | GD-Linode]
-      - 🇯🇵 专线 日本 B2 [3.5x | GD-Linode]
-      - 🇯🇵 专线 日本 B3 [3.5x | GD-Linode]
       - 🇺🇸 专线 美国 B1 [3.5x | GD-Linode]
       - 🇺🇸 专线 美国 B2 [3.5x | GD-Linode]
       - 🇺🇸 专线 美国 B3 [3.5x | GD-Linode]
@@ -58,9 +52,6 @@ proxy-groups:
       - 🇸🇬 专线 新加坡 B4 [3.5x | GD-NTT]
       - 🇸🇬 专线 新加坡 B5 [3.5x | GD-NTT]
       - 🇸🇬 专线 新加坡 B6 [3.5x | GD-NTT]
-      - 🇯🇵 专线 日本 B1 [3.5x | GD-Linode]
-      - 🇯🇵 专线 日本 B2 [3.5x | GD-Linode]
-      - 🇯🇵 专线 日本 B3 [3.5x | GD-Linode]
       - 🇺🇸 专线 美国 B1 [3.5x | GD-Linode]
       - 🇺🇸 专线 美国 B2 [3.5x | GD-Linode]
       - 🇺🇸 专线 美国 B3 [3.5x | GD-Linode]
@@ -82,9 +73,6 @@ proxy-groups:
       - 🇸🇬 专线 新加坡 B4 [3.5x | GD-NTT]
       - 🇸🇬 专线 新加坡 B5 [3.5x | GD-NTT]
       - 🇸🇬 专线 新加坡 B6 [3.5x | GD-NTT]
-      - 🇯🇵 专线 日本 B1 [3.5x | GD-Linode]
-      - 🇯🇵 专线 日本 B2 [3.5x | GD-Linode]
-      - 🇯🇵 专线 日本 B3 [3.5x | GD-Linode]
       - 🇺🇸 专线 美国 B1 [3.5x | GD-Linode]
       - 🇺🇸 专线 美国 B2 [3.5x | GD-Linode]
       - 🇺🇸 专线 美国 B3 [3.5x | GD-Linode]
@@ -116,9 +104,6 @@ proxy-groups:
       - 🇸🇬 专线 新加坡 B4 [3.5x | GD-NTT]
       - 🇸🇬 专线 新加坡 B5 [3.5x | GD-NTT]
       - 🇸🇬 专线 新加坡 B6 [3.5x | GD-NTT]
-      - 🇯🇵 专线 日本 B1 [3.5x | GD-Linode]
-      - 🇯🇵 专线 日本 B2 [3.5x | GD-Linode]
-      - 🇯🇵 专线 日本 B3 [3.5x | GD-Linode]
       - 🇺🇸 专线 美国 B1 [3.5x | GD-Linode]
       - 🇺🇸 专线 美国 B2 [3.5x | GD-Linode]
       - 🇺🇸 专线 美国 B3 [3.5x | GD-Linode]
@@ -139,9 +124,6 @@ proxy-groups:
       - 🇸🇬 专线 新加坡 B4 [3.5x | GD-NTT]
       - 🇸🇬 专线 新加坡 B5 [3.5x | GD-NTT]
       - 🇸🇬 专线 新加坡 B6 [3.5x | GD-NTT]
-      - 🇯🇵 专线 日本 B1 [3.5x | GD-Linode]
-      - 🇯🇵 专线 日本 B2 [3.5x | GD-Linode]
-      - 🇯🇵 专线 日本 B3 [3.5x | GD-Linode]
       - 🇺🇸 专线 美国 B1 [3.5x | GD-Linode]
       - 🇺🇸 专线 美国 B2 [3.5x | GD-Linode]
       - 🇺🇸 专线 美国 B3 [3.5x | GD-Linode]
@@ -163,9 +145,6 @@ proxy-groups:
       - 🇸🇬 专线 新加坡 B4 [3.5x | GD-NTT]
       - 🇸🇬 专线 新加坡 B5 [3.5x | GD-NTT]
       - 🇸🇬 专线 新加坡 B6 [3.5x | GD-NTT]
-      - 🇯🇵 专线 日本 B1 [3.5x | GD-Linode]
-      - 🇯🇵 专线 日本 B2 [3.5x | GD-Linode]
-      - 🇯🇵 专线 日本 B3 [3.5x | GD-Linode]
       - 🇺🇸 专线 美国 B1 [3.5x | GD-Linode]
       - 🇺🇸 专线 美国 B2 [3.5x | GD-Linode]
       - 🇺🇸 专线 美国 B3 [3.5x | GD-Linode]
@@ -196,9 +175,6 @@ proxy-groups:
       - 🇸🇬 专线 新加坡 B4 [3.5x | GD-NTT]
       - 🇸🇬 专线 新加坡 B5 [3.5x | GD-NTT]
       - 🇸🇬 专线 新加坡 B6 [3.5x | GD-NTT]
-      - 🇯🇵 专线 日本 B1 [3.5x | GD-Linode]
-      - 🇯🇵 专线 日本 B2 [3.5x | GD-Linode]
-      - 🇯🇵 专线 日本 B3 [3.5x | GD-Linode]
       - 🇺🇸 专线 美国 B1 [3.5x | GD-Linode]
       - 🇺🇸 专线 美国 B2 [3.5x | GD-Linode]
       - 🇺🇸 专线 美国 B3 [3.5x | GD-Linode]
