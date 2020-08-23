@@ -106,6 +106,9 @@ host, api.medlive.cn, UnlockVIP-Myself
 #NOMO
 host, nomo.dafork.com, UnlockVIP-Myself
 
+#Slidebox
+host, asia-east2-slidebox-ios-prod.cloudfunctions.net, UnlockVIP-Myself
+
 ############################越狱插件
 #limneos越狱插件
 host, limneos.net, UnlockVIP-Myself
