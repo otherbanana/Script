@@ -1,6 +1,6 @@
 #极简时钟
 host-suffix, snssdk.com, reject
-host-suffix, api-access.pangolin-sdk-toutiao.com:443, reject
+host, api-access.pangolin-sdk-toutiao.com, reject
 
 #Speedtest
 host, cdn.88-f.net, reject
