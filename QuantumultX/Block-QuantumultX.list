@@ -1,0 +1,6 @@
+#极简时钟
+host, pangolin.snssdk.com, reject
+
+#Speedtest
+host, cdn.88-f.net, reject
+host, aax-fe-sin.amazon-adsystem.com, reject
