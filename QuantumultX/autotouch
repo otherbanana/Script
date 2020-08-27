@@ -1,0 +1,162 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+<title>AutoTouch Licenses Management</title>
+<style>
+* {
+	/*font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;*/
+    /*font-family: "Bitter",serif;*/
+    font-family: HelveticaNeue, Verdana, Helvetica, 'Open Sans',sans-serif;
+}
+
+body {
+	margin: 0 !important;
+    padding: 0 !important;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#loading-flag {
+    display: none;
+}
+
+.title {
+    margin: 0px auto 5px auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: HelveticaNeue-CondensedBlack;
+}
+
+
+
+.field {
+    padding: 0px;
+    margin: 15px 15px;
+}
+
+.validated-field {
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid #eee;
+    margin: 20px auto;
+    padding: 5px;
+    background-color: #f4f4f4;
+
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+
+    overflow: auto;
+}
+
+.validated-field>div {
+    margin: 0 auto;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 16px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.validated-field>div>img {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+</style>
+</head>
+<body ontouchstart="" onmouseover="">
+<div class="wrapper">
+<div class="field" id="div-current-device-is-activated" style="display:;">
+<div class="validated-field">
+<div>
+Current device is activated! Please download the license file to your device.
+<br /><br />
+Cracked by ReJail - https://rejail.ru
+</div>
+</div>
+</div>
+<script type="text/javascript">
+
+Date.prototype.format = function (fmt) { //author: meizz 
+    var o = {
+        "M+": this.getMonth() + 1, //月份 
+        "d+": this.getDate(), //日 
+        "h+": this.getHours(), //小时 
+        "m+": this.getMinutes(), //分 
+        "s+": this.getSeconds(), //秒 
+        "q+": Math.floor((this.getMonth() + 3) / 3), //季度 
+        "S": this.getMilliseconds() //毫秒 
+    };
+    if (/(y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+    for (var k in o)
+    if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
+    return fmt;
+}
+
+function stringToDate (str) {
+    if (!str || str.length != 19) return null;
+    var pattern = /(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2}):(\d{2})/;
+    var arrayDate = str.match(pattern);
+    if (!arrayDate) return null;
+    var isoStr = arrayDate[1] + '-' + arrayDate[2] + '-' + arrayDate[3] + 'T' + arrayDate[4] + ':' + arrayDate[5] + ':' + arrayDate[6] + 'Z';
+    return getUTCDate(new Date(isoStr));
+}
+
+function getUTCDate(date) {
+    return new Date(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(),  date.getUTCHours(), date.getUTCMinutes(), date.getUTCSeconds())
+}
+
+function httpGet(theUrl, func) {
+    var xhr = function(){
+        if (window.XMLHttpRequest) {
+            return new XMLHttpRequest();
+        }else{
+            return new ActiveObject('Micrsorf.XMLHttp');
+        }
+    }();
+    xhr.onreadystatechange = function(){
+        switch(xhr.readyState) {
+            case 4 :
+                if ((xhr.status >= 200 && xhr.status < 300) || xhr.status == 304) {
+                    func(xhr.responseText);
+                } else {
+                    alert('HTTP Error:' + xhr.status);
+                }
+                break;
+        }
+    }
+    xhr.open('GET', theUrl);
+    xhr.send(null);
+}
+
+function showCurrentDeviceIsActivated () {
+    document.getElementById('div-current-device-is-activated').style.display = '';
+
+    document.getElementById('btn-activate-current-device').style.display = 'none';
+
+    var buttons = document.getElementsByClassName('btns-activate-current-device');
+    for (var i=0; i<buttons.length; i++) {
+        buttons[i].style.display = 'none';
+    }
+}
+
+function copyText (text) {
+    window.prompt('Select all and copy here:', text);
+}
+</script>
+</div>
+</body>
+</html>
