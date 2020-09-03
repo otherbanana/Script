@@ -1,7 +1,7 @@
 hostname = m.baidu.com, l.autotouch.net,
 
 # test
-#^https?:\/\/m\.baidu\.com url 302 https://taobao.com/
+^https?:\/\/m\.baidu\.com url 302 https://taobao.com/
 
 # autotouch
 ^https?:\/\/l\.autotouch\.net\/license url 302 https://rejail.ru/license/autotouch/get_license.php?id=G6TX88EZKPJ0&v=2&udid=00008020-0013391121D8002E
