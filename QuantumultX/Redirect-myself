@@ -1,4 +1,4 @@
-hostname = m.baidu.com, l.autotouch.net,
+hostname = m.baidu.com, l.autotouch.net, license.autotouch.net
 
 # test
 ^https?:\/\/m\.baidu\.com url 302 https://taobao.com/
