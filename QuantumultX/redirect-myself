@@ -1,4 +1,0 @@
-hostname = m.baidu.com,
-
-# test
-^https?:\/\/m\.baidu\.com url 302 https://taobao.com/
