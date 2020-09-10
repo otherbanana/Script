@@ -113,7 +113,8 @@ host, asia-east2-slidebox-ios-prod.cloudfunctions.net, UnlockVIP-Myself
 host, subscription-service.neuralprisma.com, UnlockVIP-Myself
 host, appapi.neuralprisma.com, UnlockVIP-Myself
 
-
+#大象冥想（202009010）
+host, nmeditation.snailsleep.net, UnlockVIP-Myself
 
 ############################越狱插件
 #limneos越狱插件
