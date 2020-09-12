@@ -116,6 +116,9 @@ host, appapi.neuralprisma.com, UnlockVIP-Myself
 #大象冥想（202009010）
 host, nmeditation.snailsleep.net, UnlockVIP-Myself
 
+#EmbyUnlocked（202009010）
+host, mb3admin.com, UnlockVIP-Myself
+
 ############################越狱插件
 #limneos越狱插件
 host, limneos.net, UnlockVIP-Myself
