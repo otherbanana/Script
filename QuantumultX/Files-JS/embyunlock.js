@@ -7,7 +7,7 @@ Quantumult X 脚本:
 hostname = mb3admin.com,
 */
 
-const modifiedStatus = $response.statusCode;
+var modifiedStatus = $response.statusCode;
 modifiedStatus = 'HTTP/1.1 200 OK';
 
 
