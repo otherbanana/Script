@@ -11,7 +11,6 @@ hostname = mb3admin.com,
 #var modifiedStatus = 'HTTP/1.1 200 OK';
 
 var modifiedHeaders = $response.headers;
-modifiedHeaders['Key'] = 'whatever';
 
 var modifiedStatus = 'HTTP/1.1 200 OK';
 
