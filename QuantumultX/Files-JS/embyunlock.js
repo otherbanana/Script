@@ -16,4 +16,4 @@ obj= {
 
 var modifiedStatus = 'HTTP/1.1 200 OK';
 
-$done({body: JSON.stringify(obj)},status: modifiedStatus);
+$done({body: JSON.stringify(obj), status: modifiedStatus});
