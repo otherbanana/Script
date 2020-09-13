@@ -2,7 +2,7 @@
 Quantumult X 脚本:
 [rewrite_local]
 #Unlocks
-^https:\/\/mb3admin\.com\/admin\/service\/registration\/validateDevice url script-response-body 
+^https:\/\/mb3admin\.com\/admin\/service\/registration\/validateDevice url script-response-body https://raw.githubusercontent.com/otherbanana/Script/master/QuantumultX/Files-JS/embyunlock.js
 [mitm]
 hostname = mb3admin.com,
 */
