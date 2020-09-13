@@ -15,4 +15,4 @@ obj= {
   'resultCode': 'GOOD'
 };
 
-$done({body: JSON.stringify(obj), status: modifiedStatus, headers : modifiedHeaders});
+$done({body: JSON.stringify(obj), status: modifiedStatus});
