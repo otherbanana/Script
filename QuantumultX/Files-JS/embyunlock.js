@@ -8,11 +8,7 @@ hostname = mb3admin.com,
 */
 
 
-#var modifiedStatus = 'HTTP/1.1 200 OK';
 
-#var modifiedHeaders = $response.headers;
-
-const modifiedStatus = 'HTTP/1.1 200 OK';
 
 var obj= JSON.parse($response.body);
 obj= {
@@ -21,4 +17,4 @@ obj= {
   'resultCode': 'GOOD'
 };
 
-$done({status: modifiedStatus, body: JSON.stringify(obj)});
+$done({body: JSON.stringify(obj)});
