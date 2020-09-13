@@ -6,16 +6,14 @@ Quantumult X 脚本:
 [mitm]
 hostname = mb3admin.com,
 */
-
+var modifiedHeaders = $response.headers;
+modifiedHeaders['Pragma'] = 'whatever';
+var modifiedStatus = 'HTTP/1.1 200 OK';
 var obj= JSON.parse($response.body);
 obj= {
   'cacheExpirationDays': 233,
   'message': 'Device Valid',
   'resultCode': 'GOOD'
 };
-
-var modifiedHeaders = $response.headers;
-modifiedHeaders['Pragma'] = 'whatever';
-var modifiedStatus = 'HTTP/1.1 200 OK';
 
 $done({body: JSON.stringify(obj), status: modifiedStatus, headers : modifiedHeaders});
