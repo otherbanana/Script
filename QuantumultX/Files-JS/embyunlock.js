@@ -7,7 +7,7 @@ Quantumult X 脚本:
 hostname = mb3admin.com,
 */
 
-let obj= JSON.parse($response.body);
+var obj= JSON.parse($response.body);
 obj= {
   'cacheExpirationDays': 233,
   'message': 'Device Valid',
