@@ -9,12 +9,12 @@ hostname = mb3admin.com,
 
 
 var modifiedStatus = 'HTTP/1.1 200 OK';
-modifiedStatus = $response.statusCode;
+
 var obj= JSON.parse($response.body);
 obj= {
   'cacheExpirationDays': 233,
   'message': 'Device Valid',
-  'resultCode': 'GOOD'
+  'resultCode': 'GOOD1'
 };
 
 $done({status: modifiedStatus, body: JSON.stringify(obj)});
