@@ -14,7 +14,6 @@ obj= {
   'resultCode': 'GOOD'
 };
 
-var modifiedStatus = $response.statusCode;
-modifiedStatus = 'HTTP/1.1 200 OK';
+var modifiedStatus = 'HTTP/1.1 200 OK';
 
 $done({body: JSON.stringify(obj), status: modifiedStatus});
