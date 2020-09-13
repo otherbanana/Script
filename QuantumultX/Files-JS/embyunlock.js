@@ -7,8 +7,8 @@ Quantumult X 脚本:
 hostname = mb3admin.com,
 */
 
-var modifiedStatus = $response.statusCode;
-modifiedStatus = 'HTTP/1.1 200 OK';
+
+var modifiedStatus = 'HTTP/1.1 200 OK';
 
 var obj= JSON.parse($response.body);
 obj= {
@@ -17,4 +17,4 @@ obj= {
   'resultCode': 'GOOD'
 };
 
-$done({body: JSON.stringify(obj), status: modifiedStatus});
+$done({status: modifiedStatus, body: JSON.stringify(obj)});
