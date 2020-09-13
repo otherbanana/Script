@@ -9,7 +9,7 @@ hostname = mb3admin.com,
 
 
 var modifiedStatus = 'HTTP/1.1 200 OK';
-
+modifiedStatus = $response.statusCode;
 var obj= JSON.parse($response.body);
 obj= {
   'cacheExpirationDays': 233,
