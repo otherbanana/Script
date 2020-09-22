@@ -93,9 +93,8 @@ host, rdp.duetdisplay.com, UnlockVIP-Myself
 
 #Faceapp
 host, api.faceapp.io, UnlockVIP-Myself
-host, loki.faceapp.io, UnlockVIP-Myself
 
-#Faceapp
+#Kinemaster
 host, api-kinemaster-assetstore.kinemasters.com, UnlockVIP-Myself
 
 #Altstore
